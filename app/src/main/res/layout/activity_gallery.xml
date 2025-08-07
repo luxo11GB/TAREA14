@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_gallery"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvGalleryStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado del permiso de galería"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/ivSelectedImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Imagen seleccionada de la galería" />
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_select_image"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnRequestPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_grant_permission"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvImageInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔒 Las imágenes accedidas se registran de forma segura"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>

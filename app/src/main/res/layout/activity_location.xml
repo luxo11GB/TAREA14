@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_location"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvLocationStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado del permiso de ubicación"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvLocationInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗺️ Presiona el botón para obtener ubicación aproximada"
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnGetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_get_location"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnRequestPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_grant_permission"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔒 Solo ubicación aproximada - No se usa GPS preciso"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Demostración de Permisos y Privacidad</string>
+    
+    <!-- Pantalla principal -->
+    <string name="main_title">Demostración de Permisos Android</string>
+    <string name="main_subtitle">Prueba diferentes permisos y observa la protección de datos</string>
+    
+    <!-- Permisos -->
+    <string name="permission_camera">Cámara</string>
+    <string name="permission_gallery">Galería</string>
+    <string name="permission_audio">Micrófono</string>
+    <string name="permission_contacts">Contactos</string>
+    <string name="permission_phone">Teléfono</string>
+    <string name="permission_location">Ubicación</string>
+    <string name="permission_data_protection">Protección de Datos</string>
+    <string name="permission_privacy_policy">Política de Privacidad</string>
+    
+    <!-- Descripciones -->
+    <string name="camera_desc">Tomar fotos y acceder a la cámara</string>
+    <string name="gallery_desc">Acceder a imágenes almacenadas</string>
+    <string name="audio_desc">Grabar audio con el micrófono</string>
+    <string name="contacts_desc">Leer lista de contactos</string>
+    <string name="phone_desc">Realizar llamadas telefónicas</string>
+    <string name="location_desc">Obtener ubicación aproximada</string>
+    <string name="data_protection_desc">Ver logs y protección de datos</string>
+    <string name="privacy_policy_desc">Política de privacidad y términos</string>
+    
+    <!-- Botones -->
+    <string name="btn_take_photo">Tomar Foto</string>
+    <string name="btn_select_image">Seleccionar Imagen</string>
+    <string name="btn_record_audio">Grabar Audio</string>
+    <string name="btn_view_contacts">Ver Contactos</string>
+    <string name="btn_make_call">Hacer Llamada</string>
+    <string name="btn_get_location">Obtener Ubicación</string>
+    <string name="btn_view_logs">Ver Logs</string>
+    <string name="btn_clear_data">Borrar Datos</string>
+    <string name="btn_grant_permission">Otorgar Permiso</string>
+    <string name="btn_go_to_settings">Ir a Configuración</string>
+    
+    <!-- Mensajes -->
+    <string name="permission_granted">Permiso otorgado</string>
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="permission_required">Se requiere este permiso para continuar</string>
+    <string name="permission_explanation">Esta función necesita acceso para funcionar correctamente</string>
+    <string name="data_encrypted">Los datos están encriptados y protegidos</string>
+    <string name="data_cleared">Datos borrados de forma segura</string>
+    <string name="access_logged">Acceso registrado en el log de seguridad</string>
+    
+    <!-- Estados -->
+    <string name="status_granted">✅ Otorgado</string>
+    <string name="status_denied">❌ Denegado</string>
+    <string name="status_not_requested">⏸️ No solicitado</string>
+    
+    <!-- Actividades -->
+    <string name="activity_camera">Cámara</string>
+    <string name="activity_gallery">Galería</string>
+    <string name="activity_audio">Audio</string>
+    <string name="activity_contacts">Contactos</string>
+    <string name="activity_phone">Teléfono</string>
+    <string name="activity_location">Ubicación</string>
+    <string name="activity_data_protection">Protección de Datos</string>
+    <string name="activity_privacy_policy">Política de Privacidad</string>
+    
+    <!-- Datos de protección -->
+    <string name="log_entry_format">%1$s - %2$s: %3$s</string>
+    <string name="encryption_info">Los datos sensibles se encriptan usando AES-256</string>
+    <string name="privacy_policy_text">Esta aplicación es una demostración de permisos y protección de datos en Android.\n\nPermisos utilizados:\n• Cámara: Para tomar fotos de demostración\n• Galería: Para seleccionar imágenes\n• Micrófono: Para grabar audio\n• Contactos: Para mostrar lista de contactos\n• Teléfono: Para realizar llamadas\n• Ubicación: Para obtener ubicación aproximada\n\nProtección de datos:\n• Todos los accesos se registran\n• Los datos se encriptan localmente\n• Se puede borrar toda la información\n• No se comparten datos con terceros</string>
+</resources>
